@@ -1,9 +1,10 @@
+import HeroSection from "@/components/HeroSection";
+
 export default function Home() {
   return (
     <div className="">
-      <div className="background-gradient " />
-
-      <div className="h-[600px] w-full flex-center">Doc Creation</div>
+      <div className="background-gradient" />
+      <HeroSection />
     </div>
   );
 }

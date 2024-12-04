@@ -9,10 +9,10 @@ import React from "react";
 
 const Header = () => {
   const NAV_ITEM = [
-    { label: "Showcase", href: "/showcases" },
-    { label: "Service", href: "/services" },
-    { label: "Process", href: "/process" },
-    { label: "Guarantee", href: "/guarantees" },
+    { label: "Showcase", href: "/showcase" },
+    { label: "Service", href: "services" },
+    { label: "Process", href: "process" },
+    { label: "Guarantee", href: "guarantees" },
   ];
   return (
     <Card className="top-5 sticky md:mx-auto z-10 xl:w-10/12 flex-between py-4 px-4 md:px-8 mx-6">
