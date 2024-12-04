@@ -89,24 +89,26 @@ export const Testimonials = ({
         )}
       >
         {items.map((item, idx) => (
-          <Card key={idx} className="w-72 h-64 dark:bg-current   bg-gray-100 ">
-            <CardContent className="py-4">
-              <div className="flex items-center mb-4">
-                <Image
-                  height={100}
-                  width={100}
-                  src={item.imageUrl || "/profile1.jpg"}
-                  alt={item.name}
-                  className="w-12 h-12 rounded-full mr-4"
-                />
-                <div>
-                  <h3 className="text-lg font-medium">{item.name}</h3>
-                  <p className="text-gray-500">{item.title}</p>
+          <li key={idx}>
+            <Card className="w-72 h-64 dark:bg-current bg-gray-100 ">
+              <CardContent className="py-4">
+                <div className="flex items-center mb-4">
+                  <Image
+                    height={100}
+                    width={100}
+                    src={item.imageUrl || "/profile1.jpg"}
+                    alt={item.name}
+                    className="w-12 h-12 rounded-full mr-4"
+                  />
+                  <div>
+                    <h3 className="text-lg font-medium">{item.name}</h3>
+                    <p className="text-gray-500">{item.title}</p>
+                  </div>
                 </div>
-              </div>
-              <p className="text-gray-700">{item.quote}</p>
-            </CardContent>
-          </Card>
+                <p className="text-gray-700">{item.quote}</p>
+              </CardContent>
+            </Card>
+          </li>
         ))}
       </ul>
     </div>
