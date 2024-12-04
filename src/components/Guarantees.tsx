@@ -19,7 +19,7 @@ const Guarantees = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10 mx-auto px-8 ">
         {features.map((feature, index) => (
           <Card key={index} className="flex flex-col bg-neutral-800 ">
-            <CardContent className="py-4">
+            <CardContent className="py-4 lg:py-8">
               <div className="w-16 p-4 animate-shine flex items-center justify-center rounded-md  bg-gradient-to-br from-neutral-700 to-neutral-800 font-medium text-slate-400 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
                 <Image
                   src={feature.icon}

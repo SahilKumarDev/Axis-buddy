@@ -2,14 +2,13 @@ import Image from "next/image";
 import { WordPullUpDemo } from "./demos/word-pull-up-demo";
 import { services } from "@/utils/data";
 import { Card, CardContent } from "./ui/card";
-import { InfiniteMovingLogos } from "./ui/infinite-moving-logos";
 
 const AboutUs = () => {
   return (
     <section>
       <WordPullUpDemo />
 
-      <div className="grid md:grid-cols-3 gap-y-8 mt-10">
+      <div className="grid md:grid-cols-3 gap-8 mt-10">
         {services.map((service) => (
           <Card key={service.title} className="bg-gray-100 dark:bg-accent">
             <CardContent>
@@ -26,23 +25,6 @@ const AboutUs = () => {
           </Card>
         ))}
       </div>
-
-      {/* <div id="guarantees" className="overflow-hidden mt-5">
-        <InfiniteMovingLogos
-          direction="left"
-          speed="slow"
-          items={[
-            {
-              logo: "/logo/logo.webp",
-              name: "Logo",
-            },
-            {
-              logo: "/logo/logo.webp",
-              name: "Logo",
-            },
-          ]}
-        />
-      </div> */}
     </section>
   );
 };

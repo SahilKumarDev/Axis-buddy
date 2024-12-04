@@ -4,8 +4,8 @@ import BoxRevealDemo from "./demos/box-reveal-demo";
 
 const CreativeProcess = () => {
   return (
-    <div>
-      <h1 className="text-3xl md:text-5xl md:text-center font-medium flex items-center gap-x-2 mx-auto justify-center">
+    <div  >
+      <h1 className="text-3xl md:text-5xl md:text-center font-medium flex items-center gap-x-2 mx-auto justify-center ">
         Our
         <span className="text-chai flex gap-x-1 items-center">
           Creative
@@ -13,7 +13,7 @@ const CreativeProcess = () => {
             src={"/icons/star.svg"}
             width={10000}
             height={10000}
-            className="w-6 mb-8"
+            className="w-6 "
             alt="image"
           />
         </span>

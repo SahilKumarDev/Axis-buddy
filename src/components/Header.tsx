@@ -15,7 +15,7 @@ const Header = () => {
     { label: "Guarantee", href: "guarantees" },
   ];
   return (
-    <Card className="top-5 sticky md:mx-auto z-10 xl:w-10/12 flex-between py-4 px-4 md:px-8 mx-6">
+    <Card className="top-5 sticky md:mx-auto z-30 xl:w-10/12 flex-between py-4 px-4 md:px-8 mx-6">
       <Link href={"/"}>
         <h1 className="font-light">Doc Creation</h1>
       </Link>

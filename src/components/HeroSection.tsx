@@ -6,8 +6,8 @@ const services = ["Design", "Development", "Marketing", "Strategy"];
 
 const HeroSection = () => {
   return (
-    <main className="mt-14 lg:mt-24 space-y-4">
-      <h1 className="text-3xl md:text-6xl font-semibold max-w-7xl mx-auto md:text-center relative bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white leading-10 text-center bg-red-500">
+    <main className="mt-14 lg:mt-20 space-y-4 lg:space-y-8">
+      <h1 className="text-3xl md:text-6xl font-semibold max-w-7xl mx-auto md:text-center relative bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white leading-10 text-center">
         Elevate your brand with <br /> <Cover>Bird Marketing Services</Cover>
       </h1>
 
@@ -16,7 +16,7 @@ const HeroSection = () => {
         minutes
       </p>
 
-      <div className=" md:flex md:justify-center items-center gap-x-4">
+      <div className="md:flex md:justify-center items-center gap-x-4">
         <CustomButton
           className="py-7 px-10 md:px-16 md:text-xl w-full mb-4 md:mb-0"
           link="tel:89609743119"

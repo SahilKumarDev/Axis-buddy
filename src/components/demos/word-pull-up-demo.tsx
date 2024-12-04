@@ -8,7 +8,7 @@ export function WordPullUpDemo() {
         words="Design & Code That Helps Your Business Grow"
       />
 
-      <p className="text-center text-xl md:text-2xl text-gray-500 pt-2">
+      <p className="text-center text-xl md:text-2xl text-gray-500 pt-2 lg:pt-4">
         All of our services are designed to help your business stand out
       </p>
     </>
