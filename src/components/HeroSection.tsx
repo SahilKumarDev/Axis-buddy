@@ -32,7 +32,7 @@ const HeroSection = () => {
         </CustomButton>
       </div>
 
-      <div className="grid grid-cols-2   md:grid-cols-4 gap-x-4 gap-y-8 items-center text-left md:justify-items-center md:mx-auto pt-6 md:mt-16">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-x-4 gap-y-8 items-center text-left md:justify-items-center md:mx-auto pt-6 md:mt-16" id="service">
         {services.map((service, index) => (
           <ServiceItem key={index} text={service} />
         ))}

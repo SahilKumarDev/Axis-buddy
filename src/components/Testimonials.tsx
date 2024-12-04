@@ -79,6 +79,7 @@ export const Testimonials = ({
         "scroller relative z-20  max-w-7xl overflow-hidden  [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
         className
       )}
+      id="guarantees"
     >
       <ul
         ref={scrollerRef}
@@ -101,11 +102,13 @@ export const Testimonials = ({
                     className="w-12 h-12 rounded-full mr-4"
                   />
                   <div>
-                    <h3 className="text-lg font-medium">{item.name}</h3>
-                    <p className="text-gray-500">{item.title}</p>
+                    <h3 className="text-lg font-medium text-black">
+                      {item.name}
+                    </h3>
+                    <p className="text-gray-500 line-clamp-1">{item.title}</p>
                   </div>
                 </div>
-                <p className="text-gray-700">{item.quote}</p>
+                <p className="text-gray-700 line-clamp-5">"{item.quote}"</p>
               </CardContent>
             </Card>
           </li>

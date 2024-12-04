@@ -8,25 +8,25 @@ import WorkingLogo from "@/components/WorkingLogo";
 
 const testimonials = [
   {
-    imageUrl: "/profile1.jpg",
+    imageUrl: "/profile-1.png",
     name: "Bessie Cooper",
     title: "Co-Founder, CEO",
     quote:
-      '"We love Landingfolio! Our designers were using it for their projects, so clients already knew what Landingfolio was and how to use it."',
+      "We love Landing folio! Our designers were using it for their projects, so clients already knew what Landing folio was and how to use it.",
   },
   {
-    imageUrl: "/profile2.jpg",
+    imageUrl: "/profile-2.png",
     name: "Albert Flores",
     title: "Senior Product Manager",
     quote:
-      "\"I didn't know designing in Figma could be this individualized. I'd never considered it before, but Landingfolio changed my mind.",
+      "I didn't know designing in Figma could be this individualized. I'd never considered it before, but Landing folio changed my mind.",
   },
   {
-    imageUrl: "/profile3.jpg",
+    imageUrl: "/profile-3.png",
     name: "Jenny Wilson",
     title: "Head of Marketing",
     quote:
-      '"We love Landingfolio! Our designers were using it for their projects, so clients already knew what Landingfolio was and how to use it."',
+      "We love Landing folio! Our designers were using it for their projects, so clients already knew what Landing folio was and how to use it.",
   },
 ];
 

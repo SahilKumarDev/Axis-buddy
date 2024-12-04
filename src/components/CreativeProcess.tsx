@@ -4,7 +4,7 @@ import BoxRevealDemo from "./demos/box-reveal-demo";
 
 const CreativeProcess = () => {
   return (
-    <div  >
+    <div>
       <h1 className="text-3xl md:text-5xl md:text-center font-medium flex items-center gap-x-2 mx-auto justify-center ">
         Our
         <span className="text-chai flex gap-x-1 items-center">

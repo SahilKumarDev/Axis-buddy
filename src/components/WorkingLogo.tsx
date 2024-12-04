@@ -3,17 +3,17 @@ import { InfiniteMovingLogos } from "./ui/infinite-moving-logos";
 
 const WorkingLogo = () => {
   return (
-    <div id="guarantees" className="overflow-hidden mt-5">
+    <div id="process" className="overflow-hidden mt-5">
       <InfiniteMovingLogos
         direction="left"
         speed="slow"
         items={[
           {
-            logo: "/logo/logo.webp",
+            logo: "/yt.png",
             name: "Logo",
           },
           {
-            logo: "/logo/logo.webp",
+            logo: "/netflix.png",
             name: "Logo",
           },
         ]}
