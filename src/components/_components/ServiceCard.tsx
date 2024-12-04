@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import { PiCheckBold } from "react-icons/pi";
 import BoxReveal from "@/components/magicui/box-reveal";
 
@@ -13,16 +12,4 @@ const ServiceItem = ({ text }: { text: string }) => (
   </BoxReveal>
 );
 
-export const ServiceCard = () => {
-  const services = ["Design", "Development", "Marketing", "Strategy"];
-
-  return (
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 items-center text-left md:justify-items-center md:mx-auto mt-10 md:mt-16">
-      {services.map((service, index) => (
-        <ServiceItem key={index} text={service} />
-      ))}
-    </div>
-  );
-};
-
-export default ServiceCard;
+export default ServiceItem;

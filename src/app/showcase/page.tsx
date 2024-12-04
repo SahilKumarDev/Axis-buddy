@@ -1,7 +1,7 @@
 import { BlurFadeDemo } from "@/components/demos/blur-fade-demo";
 
 import WordFadeIn from "@/components/magicui/word-fade-in";
-import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen";
+// import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen";
 
 const Showcase = () => {
   return (
@@ -19,7 +19,7 @@ const Showcase = () => {
 
         <BlurFadeDemo />
 
-        <LetsMakeThingsHappenSection />
+        {/* <LetsMakeThingsHappenSection /> */}
       </section>
     </div>
   );

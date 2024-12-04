@@ -47,7 +47,7 @@ export default function RootLayout({
             <MaxWidthWrapper>
               <Header />
               {children}
-              <Footer />
+              {/* <Footer /> */}
             </MaxWidthWrapper>
           </ThemeProvider>
         </div>

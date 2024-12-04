@@ -1,11 +1,8 @@
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 import React from "react";
 
-const CustomButton = ({
-  variant,
-  children,
-  className,
-}: {
+interface CustomButtonProps {
   variant?:
     | "default"
     | "destructive"
@@ -15,20 +12,30 @@ const CustomButton = ({
     | "link"
     | null
     | undefined;
+  link?: string;
   className?: string;
   children: React.ReactNode;
-}) => {
+}
+
+const CustomButton = ({
+  link,
+  variant,
+  children,
+  className,
+}: CustomButtonProps) => {
   return (
-    <Button
-      variant={variant}
-      className={`${className}
-      -mt-1 hover:bg-chai border-2 transition duration-200 
-      hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] 
-      hover:dark:shadow-[1px_1px_rgba(255,255,255),1px_1px_rgba(255,255,255),1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_0px_0px_rgba(255,255,255)]
-    `}
-    >
-      {children}
-    </Button>
+    <Link href={link || "/"}>
+      <Button
+        variant={variant}
+        className={`${className}
+          -mt-1 hover:bg-chai border-2 transition duration-200 
+          hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] 
+          hover:dark:shadow-[1px_1px_rgba(255,255,255),1px_1px_rgba(255,255,255),1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_0px_0px_rgba(255,255,255)]
+        `}
+      >
+        {children}
+      </Button>
+    </Link>
   );
 };
 

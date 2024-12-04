@@ -36,3 +36,56 @@ export const services = [
       "Don't waste money on ineffective advertising. Our PPC services help you reach your target audience",
   },
 ];
+
+export const features = [
+  {
+    icon: "/icons/fast.svg",
+    title: "Fast Delivery",
+    description:
+      "1-2 weeks delivery for most projects. Call us for more information.",
+  },
+  {
+    icon: "/icons/design.svg",
+    title: "Design & Development",
+    description:
+      "We design and develop your website with the latest technologies and trends.",
+  },
+  {
+    icon: "/icons/scalable.svg",
+    title: "Scalability + Maintenance ",
+    description: "We offer maintenance and scalability for all websites.",
+  },
+  {
+    icon: "/icons/team.svg",
+    title: "Team of Experts",
+    description: "A team of experts ready to help you, at all times.",
+  },
+  {
+    icon: "/icons/safe.svg",
+    title: "Secure Building",
+    description:
+      "Safe and secure building practices. To ensure your data is safe.",
+  },
+  {
+    icon: "/icons/analytics.svg",
+    title: "Analytics Tracking",
+    description: "Track your progress with our built in analytics",
+  },
+
+  {
+    icon: "/icons/flexible.svg",
+    title: "Dynamic Websites",
+    description: "We build dynamic solutions that are easy to manage.",
+  },
+  {
+    icon: "/icons/support.svg",
+    title: "24/7 Support",
+    description:
+      "We offer 24/7 support for all our clients. Call us for more information.",
+  },
+  {
+    icon: "/icons/money.svg",
+    title: "Affordable Pricing",
+    description: "Affordable pricing for all our clients.",
+  },
+];
