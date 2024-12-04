@@ -1,19 +1,11 @@
 import { BlurFadeDemo } from "@/components/demos/blur-fade-demo";
- 
+
 import WordFadeIn from "@/components/magicui/word-fade-in";
-// import ShowcaseNavbar from "@/components/showcase-navbar";
 import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen";
 
 const Showcase = () => {
   return (
-    <div
-      className=" "
-    >
-
-
-      {/* <ShowcaseNavbar /> */}
-
-
+    <div className=" ">
       <section className="md:px-0 mx-6 xl:w-4/5 2xl:w-[68%] md:mx-auto">
         <div className="flex items-center justify-center relative">
           <WordFadeIn
@@ -29,8 +21,6 @@ const Showcase = () => {
 
         <LetsMakeThingsHappenSection />
       </section>
-
-    
     </div>
   );
 };
