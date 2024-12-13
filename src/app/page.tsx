@@ -9,24 +9,31 @@ import WorkingLogo from "@/components/WorkingLogo";
 const testimonials = [
   {
     imageUrl: "/profile-1.png",
-    name: "Bessie Cooper",
-    title: "Co-Founder, CEO",
+    name: "Sahil Kumar Dev",
+    title: "Founder, CEO",
     quote:
-      "We love Landing folio! Our designers were using it for their projects, so clients already knew what Landing folio was and how to use it.",
+      "As the founder, I value creativity and innovation. Villan Creation's designs have elevated our projects and impressed our clients every time.",
   },
   {
     imageUrl: "/profile-2.png",
-    name: "Albert Flores",
-    title: "Senior Product Manager",
+    name: "Riya Verma",
+    title: "Product Manager",
     quote:
-      "I didn't know designing in Figma could be this individualized. I'd never considered it before, but Landing folio changed my mind.",
+      "Managing products requires attention to detail, and Villan Creation's solutions streamline our workflow and exceed expectations.",
+  },
+  {
+    imageUrl: "/profile-2.png",
+    name: "Arjun Singh",
+    title: "Client",
+    quote:
+      "Working with Villan Creation has been a game-changer. Their designs perfectly align with our brand's vision and goals.",
   },
   {
     imageUrl: "/profile-3.png",
     name: "Jenny Wilson",
-    title: "Head of Marketing",
+    title: "Abhishek Singh",
     quote:
-      "We love Landing folio! Our designers were using it for their projects, so clients already knew what Landing folio was and how to use it.",
+      "Villan Creation is a trusted partner for innovative design. They consistently deliver top-notch quality that drives results.",
   },
 ];
 

@@ -57,7 +57,7 @@ const Meeting = () => {
       <div className="md:w-1/3">
         <InlineWidget
           styles={{ height: "1000px" }}
-          url="https://calendly.com/sp7102004/30min"
+          url="https://calendly.com/sp7102004/villan-creation"
         />
       </div>
     </div>

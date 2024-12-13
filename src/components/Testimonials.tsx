@@ -91,7 +91,7 @@ export const Testimonials = ({
       >
         {items.map((item, idx) => (
           <li key={idx}>
-            <Card className="w-72 h-64 dark:bg-current bg-gray-100 ">
+            <Card className="w-72 dark:bg-current bg-gray-100 ">
               <CardContent className="py-4">
                 <div className="flex items-center mb-4">
                   <Image
@@ -108,7 +108,7 @@ export const Testimonials = ({
                     <p className="text-gray-500 line-clamp-1">{item.title}</p>
                   </div>
                 </div>
-                <p className="text-gray-700 line-clamp-5">"{item.quote}"</p>
+                <p className="text-gray-700 line-clamp-5">{`"${item.quote}"`}</p>
               </CardContent>
             </Card>
           </li>

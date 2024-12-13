@@ -87,23 +87,21 @@ export const InfiniteMovingLogos = ({
       >
         {items.map((item) => (
           <li
-            className="flex items-center flex-shrink-00 px-8"
+            className="flex items-center justify-center gap-2 px-6 py-3"
             style={{
               background:
                 "linear-gradient(180deg, var(--slate-800), var(--slate-900)",
             }}
             key={item.name}
           >
-            <div>
-              <Image
-                src={item.logo}
-                alt={item.name}
-                width={100}
-                height={100}
-                className="w-30 md:w-40
-                 "
-              />
-            </div>
+            <Image
+              alt="logo"
+              width={50}
+              height={50}
+              src={item.logo}
+              className="object-cover w-14 h-14"
+            />
+            <h1 className="font-semibold text-2xl">{item.name}</h1>
           </li>
         ))}
       </ul>

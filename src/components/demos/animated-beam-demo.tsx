@@ -4,7 +4,7 @@ import React, { forwardRef, useRef } from "react";
 
 import { cn } from "@/lib/utils";
 import { AnimatedBeam } from "@/components/magicui/animated-beam";
-import Image from "next/image"; 
+import Image from "next/image";
 
 const Circle = forwardRef<
   HTMLDivElement,
@@ -42,13 +42,13 @@ export function AnimatedBeamMultipleOutputDemo({
   return (
     <div
       className={cn(
-        "relative flex xl:h-[400px] w-full items-center justify-center overflow-hidden  md:p-10",
+        "relative flex xl:h-[400px] w-full items-center justify-center overflow-hidden md:p-10",
         className
       )}
       ref={containerRef}
     >
       <div className="flex size-full flex-row items-stretch justify-between gap-10 max-w-lg">
-        <div className="flex flex-col justify-center gap-2">
+        <div className="flex flex-col justify-center gap-4">
           <Circle ref={div1Ref}>
             <Icons.googleDrive />
           </Circle>
@@ -58,9 +58,9 @@ export function AnimatedBeamMultipleOutputDemo({
           <Circle ref={div3Ref}>
             <Image
               src={"/logo/figma.png"}
-              width={10000}
-              height={10000}
-              className="w-6 h-6"
+              width={100}
+              height={100}
+              className="w-4 h-6"
               alt="image"
             />
           </Circle>
@@ -73,7 +73,13 @@ export function AnimatedBeamMultipleOutputDemo({
         </div>
         <div className="flex flex-col justify-center">
           <Circle ref={div6Ref} className="size-16 bg-white">
-             <h1>Doc Creation</h1>
+            <Image
+              src={"/favicon.png"}
+              width={100}
+              height={100}
+              alt="image"
+              className="object-cover"
+            />
           </Circle>
         </div>
         <div className="flex flex-col justify-center">

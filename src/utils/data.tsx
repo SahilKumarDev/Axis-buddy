@@ -1,91 +1,110 @@
+import { BiSupport } from "react-icons/bi";
+import { FaCode, FaHandshake, FaStopwatch, FaTools } from "react-icons/fa";
+import { GiTakeMyMoney } from "react-icons/gi";
+import { MdDynamicForm, MdOutlineSecurity } from "react-icons/md";
+import { TbReportAnalytics } from "react-icons/tb";
+
 export const services = [
   {
-    icon: "/images/s_6.png",
-    title: "Web Design + Development",
+    icon: "/service/ui.png",
+    title: "UI Design",
     description:
-      "Take your business to the next level with our web design and development services",
+      "Craft visually stunning and user-friendly interfaces for your digital products with our UI design services.",
   },
   {
-    icon: "/images/s_1.png",
-    title: "Search Engine Optimization",
+    icon: "/service/ux.png",
+    title: "UX Design",
     description:
-      "Get your website to the top of search engine results with our SEO services",
+      "Enhance user satisfaction by improving usability and accessibility through our UX design services.",
   },
   {
-    icon: "/images/s_5.png",
-    title: "Content Creation",
+    icon: "/service/dev.png",
+    title: "Web Development",
     description:
-      "Boost your brand's online presence with our social media marketing services",
+      "Bring your ideas to life with our top-notch web development services tailored to your business needs.",
   },
   {
-    icon: "/images/s_3.png",
-    title: "Social Media Marketing",
+    icon: "/service/graphic.png",
+    title: "Graphic Design",
     description:
-      "Interact with your customers and increase sales with our email marketing services",
+      "Elevate your brand with eye-catching visuals created through our professional graphic design services.",
   },
   {
-    icon: "/images/s_4.png",
-    title: "Email Marketing",
+    icon: "/service/logo-design.png",
+    title: "Logo Design",
     description:
-      "With our content creation services, we help businesses drive results",
+      "Create a memorable brand identity with a unique and impactful logo designed just for you.",
   },
   {
-    icon: "/images/s_2.png",
-    title: "Pay-Per-Click Advertising",
+    icon: "/service/video.png",
+    title: "Video Editing",
     description:
-      "Don't waste money on ineffective advertising. Our PPC services help you reach your target audience",
+      "Engage your audience with high-quality videos edited to perfection with our video editing services.",
   },
 ];
 
 export const features = [
   {
-    icon: "/icons/fast.svg",
-    title: "Fast Delivery",
+    image: "/check/delivery.svg",
+    icon: <FaStopwatch size={24} />,
+    title: "Rapid Project Delivery",
     description:
-      "1-2 weeks delivery for most projects. Call us for more information.",
+      "Achieve faster go-to-market with delivery timelines of just 1-2 weeks for most projects. Contact us.",
   },
   {
-    icon: "/icons/design.svg",
-    title: "Design & Development",
+    image: "/check/dev.svg",
+    icon: <FaCode size={28} />,
+    title: "Innovative Design & Development",
     description:
-      "We design and develop your website with the latest technologies and trends.",
+      "Leverage cutting-edge technologies and design trends for websites that captivate and perform.",
   },
   {
-    icon: "/icons/scalable.svg",
-    title: "Scalability + Maintenance ",
-    description: "We offer maintenance and scalability for all websites.",
-  },
-  {
-    icon: "/icons/team.svg",
-    title: "Team of Experts",
-    description: "A team of experts ready to help you, at all times.",
-  },
-  {
-    icon: "/icons/safe.svg",
-    title: "Secure Building",
+    image: "/check/maintenance.svg",
+    icon: <FaTools size={24} />,
+    title: "Scalability & Maintenance",
     description:
-      "Safe and secure building practices. To ensure your data is safe.",
+      "Ensure seamless growth and reliability with our comprehensive scalability and maintenance services.",
   },
   {
-    icon: "/icons/analytics.svg",
-    title: "Analytics Tracking",
-    description: "Track your progress with our built in analytics",
-  },
-
-  {
-    icon: "/icons/flexible.svg",
-    title: "Dynamic Websites",
-    description: "We build dynamic solutions that are easy to manage.",
-  },
-  {
-    icon: "/icons/support.svg",
-    title: "24/7 Support",
+    image: "/check/team.svg",
+    icon: <FaHandshake size={28} />,
+    title: "Expert Team Support",
     description:
-      "We offer 24/7 support for all our clients. Call us for more information.",
+      "Work with a highly skilled team of professionals, available to guide and assist you every step of the way.",
   },
   {
-    icon: "/icons/money.svg",
-    title: "Affordable Pricing",
-    description: "Affordable pricing for all our clients.",
+    image: "/check/security.svg",
+    icon: <MdOutlineSecurity size={28} />,
+    title: "Robust Security Standards",
+    description:
+      "Adopt secure development practices that safeguard your data and ensure operational integrity.",
+  },
+  {
+    image: "/check/analytics.svg",
+    icon: <TbReportAnalytics size={32} />,
+    title: "Integrated Analytics Solutions",
+    description:
+      "Monitor performance and make data-driven decisions with our advanced analytics tools.",
+  },
+  {
+    image: "/check/dynamic.svg",
+    icon: <MdDynamicForm size={28} />,
+    title: "Dynamic & Adaptable Websites",
+    description:
+      "Create versatile, easy-to-manage websites that evolve with your business needs.",
+  },
+  {
+    image: "/check/support.svg",
+    icon: <BiSupport size={28} />,
+    title: "Round-the-Clock Support",
+    description:
+      "Experience peace of mind with 24/7 customer support, ensuring uninterrupted operations.",
+  },
+  {
+    image: "/check/cost.svg",
+    icon: <GiTakeMyMoney size={28} />,
+    title: "Cost-Effective Solutions",
+    description:
+      "Benefit from premium services at competitive pricing, designed to suit businesses of all sizes.",
   },
 ];
