@@ -44,15 +44,16 @@ export default function WordPullUp({
         className
       )}
     >
-      {words.split(" ").map((word, i) => (
+      {words.split(/(\s+)/).map((word, i) => (
         <motion.span
           key={i}
           variants={framerProps}
-          style={{ display: "inline-block", paddingRight: "8px" }}
+          style={{ display: "inline-block", paddingRight: "4px" }}
         >
-          {word === "" ? <span>&nbsp;</span> : word}
+          {word}
         </motion.span>
       ))}
     </motion.div>
   );
 }
+

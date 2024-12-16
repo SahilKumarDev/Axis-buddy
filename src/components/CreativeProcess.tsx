@@ -10,7 +10,7 @@ const CreativeProcess = () => {
         <span className="text-chai flex gap-x-1 items-center">
           Creative
           <Image
-            src={"/icons/star.svg"}
+            src={"/star.svg"}
             width={10000}
             height={10000}
             className="w-6 "

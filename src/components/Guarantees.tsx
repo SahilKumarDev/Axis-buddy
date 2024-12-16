@@ -15,10 +15,10 @@ const Guarantees = () => {
         </p>
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10 mx-auto px-8 ">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-10 mx-auto px-4 ">
         {features.map((feature, index) => (
-          <Card key={index} className="flex flex-col bg-neutral-800   ">
-            <CardContent>
+          <Card key={index} className="flex flex-col bg-neutral-800">
+            <CardContent className="px-4">
               <Image
                 width={200}
                 height={200}
@@ -27,7 +27,9 @@ const Guarantees = () => {
                 className="w-full h-56 object-cover rounded-b-lg bg-[#FFFFFF]"
               />
               <CardTitle className="flex items-center gap-2 text-gray-200 text-xl font-medium mt-2">
-                <span className="text-light-chai">{feature.icon}</span>{" "}
+                <span className="text-light-chai hidden md:block line-clamp-1">
+                  {feature.icon}
+                </span>
                 {feature.title}
               </CardTitle>
 
