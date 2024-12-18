@@ -6,33 +6,45 @@ import { Button } from "../ui/button";
 import { ArrowRight } from "lucide-react";
 import ShineBorder from "../ui/shine-border";
 
-const works = [
-  {
-    title: "Rubbish Brothers",
-    link: "https://www.rubbishbrothers.com",
-    description:
-      "A comprehensive waste management platform for households and businesses.",
-    imageUrl: "/images/business.webp",
-  },
-  {
-    title: "Atlas Massage",
-    link: "https://www.atlasmassage.ca",
-    description: "Online booking and service management for massage therapy",
-    imageUrl: "/images/business.webp",
-  },
-  {
-    title: "Canadian Security Solutions",
-    link: "https://www.canadiansecuritysolutions.com",
-    description: "Professional security services and consultation platform",
-    imageUrl: "/images/business.webp",
-  },
-  {
-    title: "Flight 9",
-    link: "https://www.flight9.art",
-    description: "Creative portfolio and art showcase website",
-    imageUrl: "/images/business.webp",
-  },
+const works = [  
+  {  
+    title: "Shadwui Library",  
+    link: "https://shadwui.com",  
+    description: "Elements UI components for seamless web and app development.",  
+    imageUrl: "/showcase/shadwui.png",  
+  },  
+  {  
+    title: "Portfolio Website",  
+    link: "https://sahilkumardev.netlify.app",  
+    description: "A modern and responsive personal portfolio website.",  
+    imageUrl: "/showcase/mainport.png",  
+  },  
+  {  
+    title: "Zee Movies Hub",  
+    link: "https://zeemoviehub.netlify.app",  
+    description: "A dynamic movie streaming and discovery platform for free.",  
+    imageUrl: "/showcase/mainzee.png",  
+  },  
+  {  
+    title: "Case Cobra",  
+    link: "https://casecobracase.vercel.app/",  
+    description: "Customizable iPhone covers with unique designs and quality materials.",  
+    imageUrl: "/showcase/case.png",  
+  },    
+  {  
+    title: "Portfolio Website",  
+    link: "https://sahilkumardev.vercel.app/",  
+    description: "A sleek and professional personal branding platform.",  
+    imageUrl: "/showcase/port.png",  
+  },  
+  {  
+    title: "Zee Movies Hub Dashboard",  
+    link: "https://zeemovieshubdashboard.netlify.app",  
+    description: "An intuitive admin dashboard for managing movie content.",  
+    imageUrl: "/showcase/zeedash.png",  
+  },  
 ];
+
 
 export function BlurFadeDemo() {
   return (

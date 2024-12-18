@@ -12,28 +12,28 @@ const testimonials = [
     name: "Sahil Kumar Dev",
     title: "Founder, CEO",
     quote:
-      "As the founder, I value creativity and innovation. Villan Creation's designs have elevated our projects and impressed our clients every time.",
+      "As the founder, I value creativity and innovation. Axis Buddy's designs have elevated our projects and impressed our clients every time.",
   },
   {
     imageUrl: "/images/male.png",
     name: "Abhishek Singh",
     title: "Business Manager",
     quote:
-      "Villan Creation is a trusted partner for innovative design. They consistently deliver top-notch quality that drives results.",
+      "Axis Buddy is a trusted partner for innovative design. They consistently deliver top-notch quality that drives results.",
   },
   {
     imageUrl: "/images/profile-2.png",
     name: "Riya Verma",
     title: "Product Manager",
     quote:
-      "Managing products requires attention to detail, and Villan Creation's solutions streamline our workflow and exceed expectations.",
+      "Managing products requires attention to detail, and Axis Buddy's solutions streamline our workflow and exceed expectations.",
   },
   {
     imageUrl: "/images/male.png",
     name: "Arjun Singh",
     title: "Client",
     quote:
-      "Working with Villan Creation has been a game-changer. Their designs perfectly align with our brand's vision and goals.",
+      "Working with Axis Buddy has been a game-changer. Their designs perfectly align with our brand's vision and goals.",
   },
 ];
 

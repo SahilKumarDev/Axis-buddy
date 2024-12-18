@@ -5,7 +5,7 @@ import { TheamToggler } from "@/components/TheamToggler";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { usePathname } from "next/navigation";
-import villanCreation from "/public/logoo.png";
+import villanCreation from "/public/axisBuddy.svg";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -28,7 +28,7 @@ const Header = () => {
   return (
     <Card className="top-5 sticky md:mx-auto z-30 xl:w-10/12 flex-between py-4 px-4 md:px-8 mx-6">
       <Link href={"/"}>
-        <Image src={villanCreation} alt="Logo" width={150} height={150} />
+        <Image src={villanCreation} alt="Logo" width={200} height={200} />
       </Link>
 
       <CardContent className="py-0 px-0 hidden gap-x-4 md:flex items-center">
