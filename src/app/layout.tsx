@@ -2,9 +2,9 @@ import { ThemeProvider } from "@/components/theme-provider";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import localFont from "next/font/local";
 import type { Metadata } from "next";
 import "./globals.css";
-import localFont from "next/font/local";
 
 const spaceBold = localFont({
   src: "./fonts/SpaceGrotesk-Bold.ttf",
@@ -37,8 +37,9 @@ const spaceMedium = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Home | Doc Creation",
-  description: "Banner, poster, and website creation",
+  title: "Home | Axis Buddy",
+  description:
+    "Axis Buddy offers exceptional banner designs, stunning posters, professional website creation, video editing, UI/UX design, and app development services. Your one-stop solution for impactful visual content and digital innovation.",
 };
 
 export default function RootLayout({

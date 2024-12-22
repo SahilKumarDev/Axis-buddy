@@ -5,21 +5,27 @@ import Guarantees from "@/components/Guarantees";
 import ContactUs from "@/components/ContactUs";
 import AboutUs from "@/components/AboutUs";
 import WorkingLogo from "@/components/WorkingLogo";
-
 const testimonials = [
   {
-    imageUrl: "/images/owner.png",
-    name: "Sahil Kumar Dev",
-    title: "Founder, CEO",
-    quote:
-      "As the founder, I value creativity and innovation. Axis Buddy's designs have elevated our projects and impressed our clients every time.",
-  },
-  {
-    imageUrl: "/images/male.png",
+    imageUrl: "/images/abhishek-singh.jpg",
     name: "Abhishek Singh",
     title: "Business Manager",
     quote:
       "Axis Buddy is a trusted partner for innovative design. They consistently deliver top-notch quality that drives results.",
+  },
+  {
+    imageUrl: "/images/owner.png",
+    name: "Sahil Kumar Dev",
+    title: "Founder & CEO",
+    quote:
+      "As the founder, I value creativity and innovation. Axis Buddy's designs have elevated our projects and impressed our clients every time.",
+  },
+  {
+    imageUrl: "/images/abhishek-go.jpg",
+    name: "Abhishek Goswami",
+    title: "Video Editor",
+    quote:
+      "Axis Buddy's video editing services are unmatched. Their attention to detail and creativity have helped us create engaging content.",
   },
   {
     imageUrl: "/images/profile-2.png",
@@ -47,7 +53,7 @@ export default function Home() {
         <AboutUs />
         <WorkingLogo />
         <CreativeProcess />
-        <Testimonials speed="slow" items={testimonials} />
+        <Testimonials speed="slow" items={testimonials} direction="right" />
         <Guarantees />
         <ContactUs />
       </div>

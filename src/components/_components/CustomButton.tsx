@@ -13,18 +13,22 @@ interface CustomButtonProps {
     | null
     | undefined;
   link?: string;
+  target?: string;
   className?: string;
+  linkClassName?: string;
   children: React.ReactNode;
 }
 
 const CustomButton = ({
   link,
+  target,
   variant,
   children,
   className,
+  linkClassName,
 }: CustomButtonProps) => {
   return (
-    <Link href={link || "/"}>
+    <Link href={link || "/"} className={linkClassName} target={target}>
       <Button
         variant={variant}
         className={`${className}
