@@ -23,7 +23,7 @@ const HeroSection = () => {
             target="_blank"
             variant={"outline"}
             className="py-7 px-10 md:px-7 mb-4 md:mb-0"
-            link="https://www.linkedin.com/feed/"
+            link="https://www.linkedin.com/in/axis-buddy/"
           >
             <FaLinkedin size={32} />
           </CustomButton>
@@ -31,7 +31,7 @@ const HeroSection = () => {
           <CustomButton
             linkClassName="w-full md:w-fit"
             className="py-7 px-10 md:px-16 md:text-xl w-full mb-4 md:mb-0"
-            link="tel:89609743119"
+            link="tel:8932882554"
           >
             Book a Call
           </CustomButton>
