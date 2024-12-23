@@ -115,7 +115,7 @@ export const creatorProfile = [
     img: "/images/owner.png",
   },
   {
-    name: "Sahil Dev",
+    name: "Abhishek Goswami",
     img: "/images/abhishek-go.jpg",
   },
 ];
@@ -123,7 +123,7 @@ export const creatorProfile = [
 export const creationTopic = [
   { topic: "banner-editing" },
   { topic: "video-editing" },
-  { topic: "web-creation" },
+  { topic: "website" },
 ];
 
 export const works = [
@@ -133,7 +133,7 @@ export const works = [
     description: "Elements UI components for seamless web and app development.",
     imageUrl: "/showcase/shadwui.png",
     createrDetails: creatorProfile[0],
-    value: creationTopic[1].topic,
+    value: creationTopic[2].topic,
   },
   {
     title: "Portfolio Website",
@@ -141,7 +141,7 @@ export const works = [
     description: "A modern and responsive personal portfolio website.",
     imageUrl: "/showcase/mainport.png",
     createrDetails: creatorProfile[0],
-    value: creationTopic[1].topic,
+    value: creationTopic[2].topic,
   },
   {
     title: "Zee Movies Hub",
@@ -149,7 +149,7 @@ export const works = [
     description: "A dynamic movie streaming and discovery platform for free.",
     imageUrl: "/showcase/mainzee.png",
     createrDetails: creatorProfile[0],
-    value: creationTopic[0].topic,
+    value: creationTopic[2].topic,
   },
   {
     title: "Case Cobra",
@@ -158,7 +158,7 @@ export const works = [
       "Customizable iPhone covers with unique designs and quality materials.",
     imageUrl: "/showcase/case.png",
     createrDetails: creatorProfile[0],
-    value: creationTopic[1].topic,
+    value: creationTopic[2].topic,
   },
   {
     title: "Portfolio Website",
@@ -173,7 +173,40 @@ export const works = [
     link: "https://zeemovieshubdashboard.netlify.app",
     description: "An intuitive admin dashboard for managing movie content.",
     imageUrl: "/showcase/zeedash.png",
+    createrDetails: creatorProfile[0],
+    value: creationTopic[2].topic,
+  },
+
+  {
+    title: "Invitation Design",
+    link: "",
+    description: "A captivating banner design for a digital marketing campaign.",
+    imageUrl: "/data/1.svg",
     createrDetails: creatorProfile[1],
     value: creationTopic[0].topic,
+  },
+  {
+    title: "Invitation Design",
+    link: "",
+    description: "A captivating banner design for a digital marketing campaign.",
+    imageUrl: "/data/2.svg",
+    createrDetails: creatorProfile[1],
+    value: creationTopic[0].topic,
+  },
+  {
+    title: "Invitation Design",
+    link: "",
+    description: "A captivating banner design for a digital marketing campaign.",
+    imageUrl: "/data/3.svg",
+    createrDetails: creatorProfile[1],
+    value: creationTopic[0].topic,
+  },
+  {
+    title: "Video Thumbnail",
+    link: "",
+    description: "A captivating video thumbnail for a YouTube channel.",
+    imageUrl: "/data/video-thumb.svg",
+    createrDetails: creatorProfile[1],
+    value: creationTopic[1].topic,
   },
 ];
