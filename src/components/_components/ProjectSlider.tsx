@@ -65,7 +65,7 @@ export const ProjectSlider = ({
 
       if (topContainerRef.current && bottomContainerRef.current) {
         const duration =
-          speed === "fast" ? "20s" : speed === "normal" ? "40s" : "80s";
+          speed === "fast" ? "7s" : speed === "normal" ? "10s" : "15s";
         topContainerRef.current.style.setProperty(
           "--animation-duration",
           duration
@@ -136,10 +136,10 @@ export const ProjectSlider = ({
   );
 
   return (
-    <div className={cn("space-y-7 min-w-full max-w-5xl", className)}>
+    <div className={cn("space-y-7 min-w-full max-w-5xl py-8 md:py-2", className)}>
       <div
         ref={topContainerRef}
-        className="scroller relative z-20 overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]"
+        className="scroller relative z-20 overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_5%,white_30%,transparent)] md:[mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]"
       >
         <ul
           ref={topScrollerRef}
@@ -155,7 +155,7 @@ export const ProjectSlider = ({
 
       <div
         ref={bottomContainerRef}
-        className="scroller relative z-20 overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]"
+        className="scroller relative z-20 overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_5%,white_30%,transparent)] md:[mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]"
       >
         <ul
           ref={bottomScrollerRef}

@@ -26,7 +26,7 @@ const CreativeProcess = () => {
 
       <div className="flex flex-col md:flex-row items-center justify-center w-full gap-y-6 md:py-10 md:">
         <div className="w-full order-1 ">
-          <ProjectSlider speed="normal" />
+          <ProjectSlider speed="fast" />
         </div>
 
         <div className="order-2 md:min-w-96">
