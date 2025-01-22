@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/next';
 import { ThemeProvider } from "@/components/theme-provider";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import Header from "@/components/Header";
@@ -37,7 +38,7 @@ const spaceMedium = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Home | Axis Buddy",
+  title: "Axis Buddy",
   description:
     "Axis Buddy offers exceptional banner designs, stunning posters, professional website creation, video editing, UI/UX design, and app development services. Your one-stop solution for impactful visual content and digital innovation.",
 };
@@ -78,6 +79,7 @@ export default function RootLayout({
             </MaxWidthWrapper>
           </ThemeProvider>
         </div>
+        <Analytics />
       </body>
     </html>
   );
