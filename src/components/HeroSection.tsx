@@ -2,6 +2,7 @@ import { FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import CustomButton from "./_components/CustomButton";
 import ServiceItem from "./_components/ServiceCard";
 import { Cover } from "./ui/cover";
+import { TextScramble } from "./ui/text-scramble";
 
 const services = ["UI/UX", "Development", "Editing", "Graphic"];
 
@@ -9,7 +10,12 @@ const HeroSection = () => {
   return (
     <main className="mt-14 lg:mt-20 space-y-4 lg:space-y-8">
       <h1 className="text-3xl md:text-6xl font-semibold max-w-7xl mx-auto md:text-center relative bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white leading-10 text-center">
-        Elevate your business with <br /> <Cover>Axis Buddy Services</Cover>
+        Elevate your business with <br />{" "}
+        <Cover>
+          <TextScramble duration={2} characterSet="ZBVJBDFVZJFJSBVDKBK">
+            Axis Buddy Services
+          </TextScramble>
+        </Cover>
       </h1>
 
       <p className="text-center text-xl text-gray-500">

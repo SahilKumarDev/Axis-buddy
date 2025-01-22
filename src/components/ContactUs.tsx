@@ -23,7 +23,7 @@ const ContactUs = () => {
           </div>
           <div className="w-1/3 hidden md:block">
             <Image
-              src="/images/proposal_illustration.png"
+              src="https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TtSogCmrpdA5EUkeXqzFu4JZbfr8gonK7iG0c"
               alt="proposal illustration"
               width={300}
               height={300}

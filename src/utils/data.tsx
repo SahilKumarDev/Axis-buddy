@@ -1,42 +1,38 @@
-import { BiSupport } from "react-icons/bi";
-import { FaCode, FaHandshake, FaStopwatch, FaTools } from "react-icons/fa";
-import { GiTakeMyMoney } from "react-icons/gi";
-import { MdDynamicForm, MdOutlineSecurity } from "react-icons/md";
-import { TbReportAnalytics } from "react-icons/tb";
+import { FaCode, FaStopwatch, FaTools } from "react-icons/fa";
 
 export const services = [
   {
-    icon: "/service/ui.png",
+    icon: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3T6Q7Hj10F3i5EKgaZfklhxoT7pYUjVycDdP2e",
     title: "UI Design",
     description:
       "Craft visually stunning and user-friendly interfaces for your digital products with our UI design services.",
   },
   {
-    icon: "/service/ux.png",
+    icon: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TQ4lkqEIPvWxodpetk7MAU2Y64L0nbHimhwFJ",
     title: "UX Design",
     description:
       "Enhance user satisfaction by improving usability and accessibility through our UX design services.",
   },
   {
-    icon: "/service/dev.png",
+    icon: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TfCvbh57xJlUBTxoKNjdRwC7LA3DHVrqEPein",
     title: "Web Development",
     description:
       "Bring your ideas to life with our top-notch web development services tailored to your business needs.",
   },
   {
-    icon: "/service/graphic.png",
+    icon: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TnlcGIRbF1kYxjJELTtgXZWh9miKUpGfMORAy",
     title: "Graphic Design",
     description:
       "Elevate your brand with eye-catching visuals created through our professional graphic design services.",
   },
   {
-    icon: "/service/logo-design.png",
+    icon: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TYvmY1x2ztbx9CFSVajsW0upreEoGcmR7dvH5",
     title: "Logo Design",
     description:
       "Create a memorable brand identity with a unique and impactful logo designed just for you.",
   },
   {
-    icon: "/service/video.png",
+    icon: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TM2gu6OTgIBdjvy3btomulL6as7eT40nOF9Nf",
     title: "Video Editing",
     description:
       "Engage your audience with high-quality videos edited to perfection with our video editing services.",
@@ -65,58 +61,16 @@ export const features = [
     description:
       "Ensure seamless growth and reliability with our comprehensive scalability and maintenance services.",
   },
-  {
-    image: "/check/team.svg",
-    icon: <FaHandshake size={28} />,
-    title: "Expert Team Support",
-    description:
-      "Work with a highly skilled team of professionals, available to guide and assist you every step of the way.",
-  },
-  {
-    image: "/check/security.svg",
-    icon: <MdOutlineSecurity size={28} />,
-    title: "Robust Security Standards",
-    description:
-      "Adopt secure development practices that safeguard your data and ensure operational integrity.",
-  },
-  {
-    image: "/check/analytics.svg",
-    icon: <TbReportAnalytics size={32} />,
-    title: "Integrated Analytics Solutions",
-    description:
-      "Monitor performance and make data-driven decisions with our advanced analytics tools.",
-  },
-  {
-    image: "/check/dynamic.svg",
-    icon: <MdDynamicForm size={28} />,
-    title: "Dynamic & Adaptable Websites",
-    description:
-      "Create versatile, easy-to-manage websites that evolve with your business needs.",
-  },
-  {
-    image: "/check/support.svg",
-    icon: <BiSupport size={28} />,
-    title: "Round-the-Clock Support",
-    description:
-      "Experience peace of mind with 24/7 customer support, ensuring uninterrupted operations.",
-  },
-  {
-    image: "/check/cost.svg",
-    icon: <GiTakeMyMoney size={28} />,
-    title: "Cost-Effective Solutions",
-    description:
-      "Benefit from premium services at competitive pricing, designed to suit businesses of all sizes.",
-  },
 ];
 
 export const creatorProfile = [
   {
     name: "Sahil Kumar Dev",
-    img: "/images/owner.png",
+    img: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3Tc7ds6yE5C5nbIX20vAP1yq48dJ6ZM9Do3l7j",
   },
   {
     name: "Abhishek Goswami",
-    img: "/images/abhishek-go.jpg",
+    img: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3T1QgLwiYa5ZIFBA8fxPrJs4nT3kLMOydmEcbl",
   },
 ];
 
@@ -131,7 +85,8 @@ export const works = [
     title: "Shadwui Library",
     link: "https://shadwui.com",
     description: "Elements UI components for seamless web and app development.",
-    imageUrl: "/showcase/shadwui.png",
+    imageUrl:
+      "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TeCRGdKVRAdsutCk5bZpmXjPrF7oalghHBxey",
     createrDetails: creatorProfile[0],
     value: creationTopic[2].topic,
   },
@@ -139,7 +94,8 @@ export const works = [
     title: "Portfolio Website",
     link: "https://sahilkumardev.netlify.app",
     description: "A modern and responsive personal portfolio website.",
-    imageUrl: "/showcase/mainport.png",
+    imageUrl:
+      "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TId0yXJcDqBoGeQfNSj1y5aUX4OK9YIptVPzi",
     createrDetails: creatorProfile[0],
     value: creationTopic[2].topic,
   },
@@ -147,7 +103,8 @@ export const works = [
     title: "Zee Movies Hub",
     link: "https://zeemoviehub.netlify.app",
     description: "A dynamic movie streaming and discovery platform for free.",
-    imageUrl: "/showcase/mainzee.png",
+    imageUrl:
+      "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3Td4PEADUdw3Ta97jsz6MFqlQWroSODZCbpJ8x",
     createrDetails: creatorProfile[0],
     value: creationTopic[2].topic,
   },
@@ -156,7 +113,8 @@ export const works = [
     link: "https://casecobracase.vercel.app/",
     description:
       "Customizable iPhone covers with unique designs and quality materials.",
-    imageUrl: "/showcase/case.png",
+    imageUrl:
+      "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TWeESe5tJn4fHXxORSu5DbeojzswKtd13yFTE",
     createrDetails: creatorProfile[0],
     value: creationTopic[2].topic,
   },
@@ -164,7 +122,8 @@ export const works = [
     title: "Portfolio Website",
     link: "https://sahilkumardev.vercel.app/",
     description: "A sleek and professional personal branding platform.",
-    imageUrl: "/showcase/port.png",
+    imageUrl:
+      "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TfVmU8gxJlUBTxoKNjdRwC7LA3DHVrqEPeinv",
     createrDetails: creatorProfile[0],
     value: creationTopic[2].topic,
   },
@@ -172,7 +131,8 @@ export const works = [
     title: "Zee Movies Hub Dashboard",
     link: "https://zeemovieshubdashboard.netlify.app",
     description: "An intuitive admin dashboard for managing movie content.",
-    imageUrl: "/showcase/zeedash.png",
+    imageUrl:
+      "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TyAqRFVQS3TJBHpDwZ2cklubYN1GKI4Efi7nt",
     createrDetails: creatorProfile[0],
     value: creationTopic[2].topic,
   },
@@ -180,7 +140,8 @@ export const works = [
   {
     title: "Invitation Design",
     link: "",
-    description: "A captivating banner design for a digital marketing campaign.",
+    description:
+      "A captivating banner design for a digital marketing campaign.",
     imageUrl: "/data/1.svg",
     createrDetails: creatorProfile[1],
     value: creationTopic[0].topic,
@@ -188,7 +149,8 @@ export const works = [
   {
     title: "Invitation Design",
     link: "",
-    description: "A captivating banner design for a digital marketing campaign.",
+    description:
+      "A captivating banner design for a digital marketing campaign.",
     imageUrl: "/data/2.svg",
     createrDetails: creatorProfile[1],
     value: creationTopic[0].topic,
@@ -196,7 +158,8 @@ export const works = [
   {
     title: "Invitation Design",
     link: "",
-    description: "A captivating banner design for a digital marketing campaign.",
+    description:
+      "A captivating banner design for a digital marketing campaign.",
     imageUrl: "/data/3.svg",
     createrDetails: creatorProfile[1],
     value: creationTopic[0].topic,
@@ -208,5 +171,48 @@ export const works = [
     imageUrl: "/data/video-thumb.svg",
     createrDetails: creatorProfile[1],
     value: creationTopic[1].topic,
+  },
+];
+
+export const testimonials = [
+  {
+    imageUrl:
+      "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3Ti3jrmoKBW7NJO4PUGA2FfEH13S5YxdlDTng8",
+    name: "Abhishek Singh",
+    title: "Business Manager",
+    quote:
+      "Axis Buddy is a trusted partner for innovative design. They consistently deliver top-notch quality that drives results.",
+  },
+  {
+    imageUrl:
+      "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3Tc7ds6yE5C5nbIX20vAP1yq48dJ6ZM9Do3l7j",
+    name: "Sahil Kumar Dev",
+    title: "Founder & CEO",
+    quote:
+      "As the founder, I value creativity and innovation. Axis Buddy's designs have elevated our projects and impressed our clients every time.",
+  },
+  {
+    imageUrl:
+      "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3T1QgLwiYa5ZIFBA8fxPrJs4nT3kLMOydmEcbl",
+    name: "Abhishek Goswami",
+    title: "Video Editor",
+    quote:
+      "Axis Buddy's video editing services are unmatched. Their attention to detail and creativity have helped us create engaging content.",
+  },
+  {
+    imageUrl:
+      "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TbmBlTtZQJcufwkS2nzjTmqgD7Bi3x6IyaArV",
+    name: "Riya Verma",
+    title: "Product Manager",
+    quote:
+      "Managing products requires attention to detail, and Axis Buddy's solutions streamline our workflow and exceed expectations.",
+  },
+  {
+    imageUrl:
+      "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TtaOiZOrpdA5EUkeXqzFu4JZbfr8gonK7iG0c",
+    name: "Arjun Singh",
+    title: "Client",
+    quote:
+      "Working with Axis Buddy has been a game-changer. Their designs perfectly align with our brand's vision and goals.",
   },
 ];

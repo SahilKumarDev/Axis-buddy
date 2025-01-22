@@ -1,7 +1,7 @@
 import Image from "next/image";
-import { AnimatedBeamMultipleOutputDemo } from "./demos/animated-beam-demo";
 import BoxRevealDemo from "./demos/box-reveal-demo";
-
+import ProjectSlider from "./_components/ProjectSlider";
+ 
 const CreativeProcess = () => {
   return (
     <div>
@@ -24,11 +24,12 @@ const CreativeProcess = () => {
         All of our services are designed to help your business to get noticed.
       </p>
 
-      <div className="flex flex-col md:flex-row items-center justify-center w-full gap-y-6">
-        <div className="w-full order-2 md:order-1">
-          <AnimatedBeamMultipleOutputDemo />
+      <div className="flex flex-col md:flex-row items-center justify-center w-full gap-y-6 md:py-10 md:">
+        <div className="w-full order-1 ">
+          <ProjectSlider speed="normal" />
         </div>
-        <div className="w-full order-1 md:order-2 md:ml-0">
+
+        <div className="order-2 md:min-w-96">
           <BoxRevealDemo />
         </div>
       </div>

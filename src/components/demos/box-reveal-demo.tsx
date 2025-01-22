@@ -32,11 +32,11 @@ const steps = [
 
 const BoxRevealDemo = () => {
   return (
-    <div className="h-full w-full grid  items-center justify-center md:ml-10 overflow-hidden pt-8 md:pt-0 space-y-8 text-center">
+    <div className="h-full w-full grid items-center justify-center md:px-10 overflow-hidden space-y-8 text-center">
       {steps.map((step, index) => (
         <div key={index} >
           <BoxReveal width="100%" boxColor={"#3b82f6"} duration={0.5}>
-            <p className="text-3xl   font-semibold ">{step.title}</p>
+            <p className="text-3xl flex-nowrap font-semibold ">{step.title}</p>
           </BoxReveal>
           <BoxReveal width="100%" boxColor={"#3b82f6"} duration={0.5}>
             {step.description}
