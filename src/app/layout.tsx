@@ -78,10 +78,6 @@ export const metadata: Metadata = {
     "Portfolio Maker",
   ],
   creator: "Sahil Kumar dev",
-  other: {
-    name: "google-adsense-account",
-    content: "ca-pub-6321495356642148",
-  },
 };
 
 export default function RootLayout({
@@ -91,13 +87,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <Script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6321495356642148"
-          crossOrigin="anonymous"
-        />
-      </head>
       <body
         className={` 
           ${spaceBold.className}
@@ -108,6 +97,11 @@ export default function RootLayout({
           antialiased
         `}
       >
+        <Script
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.PUBLIC_GOOGLE_ADS_CLIENT_ID}`}
+          crossOrigin="anonymous"
+        ></Script>
         <div
           className="
             overflow-clip inset-0 -z-10 h-full w-full bg-transparent bg-[size:14px_24px]
