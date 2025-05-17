@@ -1,4 +1,3 @@
-import { Analytics } from '@vercel/analytics/next';
 import { ThemeProvider } from "@/components/theme-provider";
 import MaxWidthWrapper from "@/components/MaxWidthWrapper";
 import Header from "@/components/Header";
@@ -6,6 +5,7 @@ import Footer from "@/components/Footer";
 import localFont from "next/font/local";
 import type { Metadata } from "next";
 import "./globals.css";
+import Script from "next/script";
 
 const spaceBold = localFont({
   src: "./fonts/SpaceGrotesk-Bold.ttf",
@@ -41,6 +41,47 @@ export const metadata: Metadata = {
   title: "Axis Buddy",
   description:
     "Axis Buddy offers exceptional banner designs, stunning posters, professional website creation, video editing, UI/UX design, and app development services. Your one-stop solution for impactful visual content and digital innovation.",
+  authors: [
+    {
+      name: "Sahil Kumar dev",
+      url: "https://www.linkedin.com/in/sahil-kumar-dev/",
+    },
+  ],
+  keywords: [
+    "Axis Buddy",
+    "banner design",
+    "poster design",
+    "website creation",
+    "video editing",
+    "UI/UX design",
+    "app development",
+    "graphic design",
+    "digital marketing",
+    "branding",
+    "social media design",
+    "content creation",
+    "creative agency",
+    "visual content",
+    "digital innovation",
+    "web development",
+    "mobile app development",
+    "video production",
+    "user interface design",
+    "user experience design",
+    "advertising",
+    "marketing",
+    "business branding",
+    "online presence",
+    "creative solutions",
+    "design services",
+    "digital solutions",
+    "Portfolio Maker",
+  ],
+  creator: "Sahil Kumar dev",
+  other: {
+    name: "google-adsense-account",
+    content: "ca-pub-6321495356642148",
+  },
 };
 
 export default function RootLayout({
@@ -50,6 +91,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6321495356642148"
+          crossOrigin="anonymous"
+        />
+      </head>
       <body
         className={` 
           ${spaceBold.className}
@@ -79,7 +127,6 @@ export default function RootLayout({
             </MaxWidthWrapper>
           </ThemeProvider>
         </div>
-        <Analytics />
       </body>
     </html>
   );
